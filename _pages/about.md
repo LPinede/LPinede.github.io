@@ -2,18 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: ML and Chemistry Scientist at <a href='https://www.entalpic.ai/'>Entalpic</a>, Master student at PSL University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Paris, France</p>
+    <p>pinede.lp22@gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +21,24 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+### About Me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a junior ML and chemistry scientist at [Entalpic](https://www.entalpic.ai/), where I am completing my master's thesis, trying to bridge the simulation to experiment gap building a high throughput predictive pipeline for cathode active materials discovery. I am completing a double diploma at Chimie ParisTech–PSL (engineering degree) and PSL University (M2 Chemistry).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to Entalpic, I was a visiting graduate student in Rafael Gómez-Bombarelli's group at MIT (April–August 2025). I worked on two projects: accelerating the training of Boltzmann Emulators via uMLIP representation alignment; and co-developing ASTRA, an inference-time steering framework for sampling transition states.
+
+Before MIT, I interned in Damien Laage's group at ENS–PSL (November 2024–March 2025), where I built equivariant MLIPs with a Gaussian-process active learning pipeline and used them to characterize Criegee intermediate reactivity at the air–water interface via enhanced sampling.
+
+My earlier research background is experimental. At LIMMS (University of Tokyo), I worked with Soo Hyun Kim and Anthony Genot (April–October 2024) on a DNA hydrogel for capturing and culturing circulating tumor cells. 
+
+### Research Interests
+
+Having navigated the complexities of conventional experimental design, I seek to build robust tools that can help bridge the molecular scale with physical observables, thus empowering domain scientists to navigate the search space more effectively. In that context, I am excited about representation learning and generative modelling as tools to faster sample energy landscapes.
+
+
+
